@@ -36,7 +36,7 @@ function resetGame() {
     attempts = 0;
 
     // Restablecer el mensaje
-    document.getElementById('message').innerText = 'Enter a number and make a guess!';
+    document.getElementById('message').innerText = 'Guess the number between 1-100!';
 
     // Limpiar el campo de entrada
     document.getElementById('userGuess').value = '';
